@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: vazir;
+    src: url(../font/Vazir.ttf);
+  }
+.icons img:hover{
+    opacity: 50%;
+}
+.navbar{
+    background-color: #1172d3;
+}
+    .navbar{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .nav-pills .nav-link{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 0;
+    }
+    .nav-item{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 0;
+    }
+    .nav-item:hover{
+        background-color: grey;
+}
+.card-box .card:hover{
+    background-color:whitesmoke;
+}
+.artical:hover{
+    background-color:whitesmoke;
+}
+.pic{
+    background-image: url(../img/card2.png);
+  }
+  .client img:hover{
+      opacity: 50%;
+      transform: scale(1.2);
+      transition: 1s;
+  }
+.mycard{
+    background: url(../img/card2.png) no-repeat center center/ cover;
+}
+.mycard div:hover{
+    background-color: #106bc9;
+}
+.circle img:hover{
+    opacity: 50%;
+    transition: 1s;
+}
+.brands img{
+    border-right: 1px solid #ccc;
+    filter:grayscale(100%);
+  }
+  .brands img:hover{
+    filter: none;
+  }
+.footer{
+    background-color: #454f59;
+}
+.last{
+    background-color: #3e4952;
+}
+.slider2 .carousel-control-prev-icon{
+    background-image: url(../img/angle-left.png);
+   }
+   .slider2 .carousel-control-next-icon{
+     right: 600%;
+     background-image: url(../img/angle-right.png);
+   }
+   @media screen and (max-width:1110px) {
+    .slider2 .carousel-control-next-icon{
+      right: 550%;
+    }
+  }
